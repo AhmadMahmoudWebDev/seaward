@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Caveat', cursive;
+}
+/* NavBar */
+.navbar-brand img{
+    width: 4rem;
+    height: 4rem;
+}
+.nav-link {
+    font-size: 2rem;
+}
