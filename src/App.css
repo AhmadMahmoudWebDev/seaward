@@ -15,3 +15,24 @@ body {
 .nav-link {
     font-size: 2rem;
 }
+
+/* jumbotron Backgrounds */
+.home-bg {
+    background-image: url('https://ahmadmahmoud.sirv.com/seaward/home.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.rooms-bg {
+    background-image: url('https://ahmadmahmoud.sirv.com/seaward/rooms.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.notFound-bg {
+    background-image: url('https://ahmadmahmoud.sirv.com/seaward/notFound.png');
+    background-position: center;
+    background-size: cover;
+}
+/* Card */
+.card-text{
+    font-size: 1.3rem;
+}

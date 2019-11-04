@@ -1,9 +1,12 @@
 import React from 'react'
+import Jumbotron from '../components/Jumbotron'
+import {Link} from 'react-router-dom'
 
 function Rooms() {
     return (
         <div>
-            <h1>Hello From Rooms Page...</h1>
+            <Jumbotron title="Our Rooms" bg="rooms-bg">
+            </Jumbotron>
         </div>
     )
 }
