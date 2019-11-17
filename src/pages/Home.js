@@ -2,6 +2,7 @@ import React from 'react'
 import Jumbotron from '../components/Jumbotron'
 import {Link} from 'react-router-dom'
 import Services from '../components/Services'
+import FeaturedRoom from '../components/FeaturedRoom'
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
               <Link to="/rooms"className="btn btn-primary btn-lg shadow">View Our Rooms</Link>
           </Jumbotron>
           <Services />
+          <FeaturedRoom />
         </>
     )
 }

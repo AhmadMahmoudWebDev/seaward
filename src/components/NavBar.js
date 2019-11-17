@@ -9,19 +9,19 @@ export default class NavBar extends Component {
     render() {
         return (
             <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <Link class="navbar-brand" to="/"><img src={Logo} alt="SeaWard Logo" class="img rounded shadow"/></Link>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <Link className="navbar-brand" to="/"><img src={Logo} alt="SeaWard Logo" className="img rounded shadow"/></Link>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/"><FontAwesomeIcon icon={faHotel} /> Home <span class="sr-only">(current)</span></Link>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav mr-auto">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/"><FontAwesomeIcon icon={faHotel} /> Home <span className="sr-only">(current)</span></Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/rooms/"><FontAwesomeIcon icon={faBed} /> Our Rooms</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/rooms/"><FontAwesomeIcon icon={faBed} /> Our Rooms</Link>
                         </li>
                         </ul>
                     </div>

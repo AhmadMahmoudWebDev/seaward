@@ -31,7 +31,7 @@ export default class Services extends Component {
                 <h3 className="text-center"><FontAwesomeIcon icon={faStar} /> Our Services </h3>
                 <div className="row text-center mr-0">
                     {this.state.services.map((service,index) => {
-                        return <div className="col-sm-4">
+                        return <div className="col-sm-4" key={index}>
                                     <div className="card border-0">
                                         <div className="card-body">
                                             {service.icon}
