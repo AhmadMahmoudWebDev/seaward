@@ -13,7 +13,7 @@ export default function Room({room}) {
                 <div className="card-img-overlay">
                     <p className="card-text float-left">${price} Per Day</p>
                     <h5 className="card-title">{name}</h5>
-                    <Link to={`/room/${slug}`} className="btn btn-primary">Features</Link>
+                    <Link to={`/rooms/${slug}`} className="btn btn-primary">Features</Link>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ export default class FeaturedRoom extends Component {
                 <div className="jumbotron text-center">
                     <h1>FeaturedRoom</h1>
                 </div>
-                <div className="row text-center">
+                <div className="row text-center mr-0">
                     {loading ? <Loading /> : rooms}
                 </div>
             </>

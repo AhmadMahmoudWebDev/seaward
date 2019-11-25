@@ -7,7 +7,7 @@ import FeaturedRoom from '../components/FeaturedRoom'
 function Home() {
     return (
         <>
-          <Jumbotron  title="Welcome To SeaWard Beach Resort" subtitle="Get Yourself Near the Amazing Sea Sight" bg="home-bg">
+          <Jumbotron  title="Welcome To SeaWard Beach Resort" subtitle="Get Yourself Near the Amazing Sea Sight" bg="https://ahmadmahmoud.sirv.com/seaward/home.jpg">
               <Link to="/rooms"className="btn btn-primary btn-lg shadow">View Our Rooms</Link>
           </Jumbotron>
           <Services />
