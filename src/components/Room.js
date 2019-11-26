@@ -7,7 +7,7 @@ export default function Room({room}) {
     const{name, slug, images, price} = room;
 
     return (
-        <div className="col-sm-4">
+        <div className="col-sm-3">
             <div className="card bg-dark text-white">
                 <img src={images[0] || noPreview} className="card-img" alt={name} />
                 <div className="card-img-overlay">
