@@ -11,9 +11,11 @@ export default function Jumbotron({children, title, subtitle, bg}) {
     
     return (
         <div className="jumbotron text-center" style={style}>
-            <h1>{title}</h1>
-            <h2>{subtitle}</h2>
-            {children}
+            <div className="container">
+                <h1>{title}</h1>
+                <h2>{subtitle}</h2>
+                {children}
+            </div>
         </div>
     )
 }

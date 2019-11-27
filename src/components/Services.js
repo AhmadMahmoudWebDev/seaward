@@ -27,9 +27,11 @@ export default class Services extends Component {
     }
     render() {
         return (
-            <>
-                <h3 className="text-center"><FontAwesomeIcon icon={faStar} /> Our Services </h3>
-                <div className="row text-center mr-0">
+            <div className="mb-5">
+                <div className="jumbotron text-center">
+                    <h3 className="text-center"><FontAwesomeIcon icon={faStar} /> Our Services </h3>
+                </div>
+                <div className="row text-center">
                     {this.state.services.map((service,index) => {
                         return <div className="col-sm-4" key={index}>
                                     <div className="card border-0">
@@ -43,7 +45,7 @@ export default class Services extends Component {
                     })}
                 </div>
                 
-            </>
+            </div>
         )
     }
 }

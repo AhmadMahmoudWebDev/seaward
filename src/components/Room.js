@@ -7,13 +7,15 @@ export default function Room({room}) {
     const{name, slug, images, price} = room;
 
     return (
-        <div className="col-sm-3">
-            <div className="card bg-dark text-white">
+        <div className="col-sm-3 mb-4">
+            <div className="card text-center">
                 <img src={images[0] || noPreview} className="card-img" alt={name} />
                 <div className="card-img-overlay">
-                    <p className="card-text float-left">${price} Per Day</p>
-                    <h5 className="card-title">{name}</h5>
-                    <Link to={`/rooms/${slug}`} className="btn btn-primary">Features</Link>
+                    <p className="badge badge-pill badge-danger float-left">${price} Per Day</p>
+                    <h5 className="badge badge-pill badge-danger float-right">{name}</h5>
+                </div>
+                <div className="card-footer">
+                    <Link to={`/rooms/${slug}`} className="btn btn-secondary shadow">View Room's Features</Link>
                 </div>
             </div>
         </div>

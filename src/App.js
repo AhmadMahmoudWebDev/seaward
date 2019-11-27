@@ -13,7 +13,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <>
+    <div className="container-fluid">
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/rooms/:room" component={Room} />
         <Route component={NotFound} />
       </Switch>
-    </>
+    </div>
   );
 }
 

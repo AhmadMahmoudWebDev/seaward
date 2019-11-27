@@ -16,7 +16,7 @@ export default function Search() {
                 }
 
                 return (
-                    <div>
+                    <div className="container-fluid mb-5">
                         <Filter rooms={rooms} />
                         <SearchList rooms={sortedRooms}/>
                     </div>

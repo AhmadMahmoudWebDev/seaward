@@ -5,18 +5,119 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Caveat', cursive;
+    font-family: cursive;
+    background-image: url('https://ahmadmahmoud.sirv.com/seaward/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 /* NavBar */
+.navbar {
+    background: none;
+}
 .navbar-brand img{
     width: 4rem;
-    height: 4rem;
+    height: 3.5rem;
 }
 .nav-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: #e3c9b4 !important;
+    text-shadow: 0px 0px 2px #796172, 0px 0px 2px #e3c9b4;
+}
+.nav-link:hover{
+    text-shadow: 2px 2px 4px #796172, 3px 3px 5px #e3c9b4;
+}
+.navbar-toggler {
+    background-color: rgba(192, 145, 131, 0.8);
+    box-shadow: 0px 0px 10px #796172;
+}
+/* jumbotron */
+.jumbotron h1 {
+    font-weight: bolder;
+    color: #11777b;
+    text-shadow: 1px 1px 2px #796172, 2px 2px 4px #e3c9b4;
+    text-transform: capitalize;
+}
+.jumbotron h2 {
+    color: #796172;
+    text-shadow: 1px 1px 2px #796172, 2px 2px 4px #e3c9b4;
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+}
+.jumbotron h3 {
+    color: #11777b;
+    text-shadow: 1px 1px 2px #796172, 2px 2px 4px #e3c9b4;
+    font-weight: bold;
+    font-family: cursive;
+}
+.jumbotron .container {
+    background-color: rgba(192, 145, 131, 0.5);
+    box-shadow: 0px 0px 10px #796172;
+    padding: 2rem;
+}
+.jumbotron {
+    background-color: #e3c9b4;
 }
 
 /* Card */
+.card {
+    background-color: rgba(227, 201, 180, 0.7);
+    box-shadow: 0px 0px 10px #796172;
+    
+}
+.card-header {
+    color: #11777b;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #796172, 1px 1px 2px #e3c9b4;
+    background-color: rgba(192, 145, 131, 0.6);
+    box-shadow: 0px 0px 10px #796172;
+}
+.card-body svg {
+    color: #796172;
+    border: none;
+}
+.card-body h3 {
+    text-shadow: 1px 1px 2px #796172, 1px 1px 2px #e3c9b4;
+    font-weight: bold;
+    color: #796172;
+}
 .card-text{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px #796172, 1px 1px 1px #e3c9b4;
+    color: #796172;
+    font-family: 'caveat', cursive;
+}
+.badge {
+    font-size: 1rem;
+}
+.card-img-overlay {
+    height: 50%;
+}
+.img-thumbnail {
+    background: none;
+    border: none;
+}
+/* List */
+.list-group-item {
+    background-color: rgba(192, 145, 131, 0.6);
+    box-shadow: 0px 0px 10px #796172;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #796172, 1px 1px 1px #e3c9b4;
+    color: #796172;
+    font-weight: bold;
+}
+label {
+    font-size: 1.8rem;
+    color: #11777b !important;
+    text-shadow: 2px 2px 4px #796172, 2px 2px 4px #e3c9b4;
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+}
+.form-control {
+    background-color: rgba(227, 201, 180, 0.7);
+    box-shadow: 0px 0px 10px #796172;
+}
+.form-group {
+    background-color: rgba(192, 145, 131, 0.8);
+    box-shadow: 0px 0px 10px #796172;
 }

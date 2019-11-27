@@ -12,7 +12,7 @@ export default function SearchList({rooms}) {
     }
 
     return (
-        <div className="container">
+        <div className="container-fluid">
             <div className="row">
                 {rooms.map(item => {
                     return <Room key={item.id} room={item} />

@@ -30,7 +30,7 @@ export default class Room extends Component {
                 <div className="jumbotron text-center">
                     <div className="alert alert-danger" role="alert">
                         <h1>Sorry :( There is no such a room!...</h1>
-                        <Link to="/rooms" className="btn btn-primary shadow">Return To Rooms Page</Link>
+                        <Link to="/rooms" className="btn btn-secondary shadow">Return To Rooms Page</Link>
                     </div>
                 </div>
             );
@@ -41,7 +41,7 @@ export default class Room extends Component {
         return (
             <div>
                 <Jumbotron title={name} bg={images[0]}>
-                    <Link to="/rooms"className="btn btn-primary btn-lg shadow">View Our Rooms</Link>
+                    <Link to="/rooms"className="btn btn-secondary shadow">View Our Rooms</Link>
                 </Jumbotron>
                 <div className="row text-center mr-0">
                     {images.map((item, index) => {
@@ -50,11 +50,11 @@ export default class Room extends Component {
                         </div>
                     })}
                 </div>
-                <div className="row mr-0">
+                <div className="row mr-0 mb-5">
                     <div className="col-sm-7 m-auto pt-5">
                         <div className="card">
-                            <div className="card-header">
-                                <h3>Details</h3>
+                            <div className="card-header text-center">
+                                <h3>Features and Details</h3>
                             </div>
                             <div className="card-body">
                                 <p className="card-text">

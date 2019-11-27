@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
           <Jumbotron  title="Welcome To SeaWard Beach Resort" subtitle="Get Yourself Near the Amazing Sea Sight" bg="https://ahmadmahmoud.sirv.com/seaward/home.jpg">
-              <Link to="/rooms"className="btn btn-primary btn-lg shadow">View Our Rooms</Link>
+              <Link to="/rooms"className="btn btn-secondary shadow round">Let's Go Seaward!</Link>
           </Jumbotron>
           <Services />
           <FeaturedRoom />

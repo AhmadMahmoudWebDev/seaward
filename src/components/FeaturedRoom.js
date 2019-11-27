@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { RoomContext } from '../context'
 import Loading from './Loading';
 import Room from './Room';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBed } from '@fortawesome/free-solid-svg-icons'
 
 export default class FeaturedRoom extends Component {
 
@@ -16,9 +18,9 @@ export default class FeaturedRoom extends Component {
         return (
             <>
                 <div className="jumbotron text-center">
-                    <h1>FeaturedRoom</h1>
+                    <h3><FontAwesomeIcon icon={faBed} /> FeaturedRoom</h3>
                 </div>
-                <div className="row text-center mr-0">
+                <div className="row text-center mb-5">
                     {loading ? <Loading /> : rooms}
                 </div>
             </>
